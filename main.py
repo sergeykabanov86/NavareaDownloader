@@ -38,6 +38,11 @@ def collect_data(navarea_num = '4'):
 def plus(a,b):
     return  a+b
 
+def minus(a,b):
+    return a-b
+
+
+
 
 def main():
     for i in range(1,19):
