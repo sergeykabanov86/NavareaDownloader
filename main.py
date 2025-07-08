@@ -34,6 +34,11 @@ def collect_data(navarea_num = '4'):
     with open('1.txt', 'w') as file:
         print(navarea_text, file=file)
 
+
+def plus(a,b):
+    return  a+b
+
+
 def main():
     for i in range(1,19):
         if(i == 13):
