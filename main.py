@@ -1,4 +1,4 @@
-﻿from sealagom.navarea import collect_data
+﻿from sealagom.data import collect_data
 
 
 def main():

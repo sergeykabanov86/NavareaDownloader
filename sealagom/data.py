@@ -16,7 +16,7 @@ def collect_data(navarea_num = '4'):
         'Accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
     }
 
-    file_name = f'.\\downloads\\index_{navarea_num}.html'
+    file_name = f'.\\downloads\\{navarea_num:02}_index_{navarea_num}.html'
     response = requests.get(url_source, headers = headers)
     # with open(file_name, 'w') as file:
     #      file.write(response.text, encoding="utf-8")
@@ -29,6 +29,8 @@ def collect_data(navarea_num = '4'):
     navarea_text = soup.find('div', class_='message-content formatted' ).text.strip()
     print('',navarea_text, sep='\n')
 
-    file_name = f'.\\downloads\\index_{navarea_num}.txt'
+    file_name = f'.\\downloads\\{navarea_num:02}_index_{navarea_num}.txt'
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(navarea_text)
+
+    return navarea_text
