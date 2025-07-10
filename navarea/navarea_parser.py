@@ -1,19 +1,15 @@
-﻿import datetime
-
-
-class navarea:
-    published:datetime
-    version:int
-    num:int
-    year:int
+﻿from navarea import navarea_class
 
 
 
-
-
-
-
-
-
-if __name__ == '__main__':
+def navarea_parser(body:str, navare_num:int) -> navarea_class:
     pass
+
+
+
+
+
+
+
+
+

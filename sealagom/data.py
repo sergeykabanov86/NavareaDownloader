@@ -3,7 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
-def collect_data(navarea_num = '4'):
+def collect_data(navarea_num:int = '4')->str:
+    print('start downloading data from sealagom.com')
+
     #https://sealagom.com/navarea/4/
     url_base = 'https://sealagom.com'
     url_source = f'{url_base}/navarea/{navarea_num}/'
@@ -18,19 +20,20 @@ def collect_data(navarea_num = '4'):
 
     file_name = f'.\\downloads\\{navarea_num:02}_index_{navarea_num}.html'
     response = requests.get(url_source, headers = headers)
-    # with open(file_name, 'w') as file:
-    #      file.write(response.text, encoding="utf-8")
 
-
-    # with open(file_name, 'r') as file:
-    #     src = file.read()
-    #
     soup = BeautifulSoup(response.text, 'lxml')
     navarea_text = soup.find('div', class_='message-content formatted' ).text.strip()
-    print('',navarea_text, sep='\n')
 
     file_name = f'.\\downloads\\{navarea_num:02}_index_{navarea_num}.txt'
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(navarea_text)
 
     return navarea_text
+
+
+def collect_data_tmp(navarea_num:int)->str:
+    print('load tmp local files !!!')
+    file_name = f'.\\downloads\\{navarea_num:02}_index_{navarea_num}.txt'
+    with open(file_name, 'r', encoding='utf-8') as file:
+        text = file.read()
+    return text
