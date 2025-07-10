@@ -2,10 +2,15 @@
 
 
 def main():
-    for i in range(19,20):
+    for i in range(1,20):
         if(i == 13):
             continue
         collect_data(i)
+
+
+
+
+
 
 
 

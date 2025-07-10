@@ -1,4 +1,4 @@
-Every effort is made to keep the information on this website up-to-date but it is not always possible to add and cancel warnings in real-time. While NAVAREA XIV and New Zealand Coastal Navigational Warnings are made available on this website, Masters/Captains are still required to receive navigational warnings from the appropriate International Maritime Organization (IMO) or World Meteorological Organization (WMO) approved Global Maritime Distress and Safety System (GMDSS) broadcast service i.e. the International SafetyNET system.Many warnings are of a temporary nature, but others may remain in-force for several weeks and may be superseded by Notices to Mariners.Warnings In-Force at: 082207 UTC JUL 25
+Every effort is made to keep the information on this website up-to-date but it is not always possible to add and cancel warnings in real-time. While NAVAREA XIV and New Zealand Coastal Navigational Warnings are made available on this website, Masters/Captains are still required to receive navigational warnings from the appropriate International Maritime Organization (IMO) or World Meteorological Organization (WMO) approved Global Maritime Distress and Safety System (GMDSS) broadcast service i.e. the International SafetyNET system.Many warnings are of a temporary nature, but others may remain in-force for several weeks and may be superseded by Notices to Mariners.Warnings In-Force at: 100500 UTC JUL 25
 NAVAREA XIV WARNING 148/25
 EAST PACIFIC RISE
 1. HAZARDOUS OPERATIONS, SPACE DEBRIS FROM 14 JUL 2025 TO 20 JUL 2025 BETWEEN 0251 UTC AND 0725 UTC IN AREA BOUND BY:
@@ -55,6 +55,16 @@ TUVALU
 FUNAFUTI
 CHART BA 2983 
 STRICKLAND ROCK PORT LATERAL BEACON 08-33.68S 179-07.01E MISSING
+NNNN
+
+NEW ZEALAND COASTAL NAVIGATION WARNING 181/25
+AREA CHATHAM ISLANDS
+VHF CHANNEL 16 ON PITT ISLAND FOR MARITIME RADIO UNAVAILABLE. VESSELS TRANSITING AREA CHATHAM ISLANDS ARE REQUESTED TO MAINTAIN A LISTENING WATCH ON VHF 16. LIMITED COVERAGE MAY BE AVAILABLE VIA CH16 CHATHAM ISLAND OR TAUPO MARITIME RADIO/ZLM VIA SSB.
+NNNN
+
+NEW ZEALAND COASTAL NAVIGATION WARNING 180/25
+AREA GREY
+EASTERN BREAKWATER HEAD LIGHT 41-43.64S 171-35.36E UNLIT
 NNNN
 
 NEW ZEALAND COASTAL NAVIGATION WARNING 2/25
