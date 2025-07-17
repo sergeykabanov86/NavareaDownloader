@@ -33,24 +33,26 @@ def create_connection(host=host, port = port, user= user, password = password, d
     return connection
 
 
-def test_connection():
+def test_connection()->bool:
     print('Testing connection ...')
-
+    res = False
     try:
         conn = create_connection(host, port, user, password, None)
         print('Test connection success!')
-    except:
-        print('Test connection failed!')
+        res = True
+    except Exception as ex:
+        print(f'Test connection failed!\n{ex}')
+        res = False
     finally:
         conn.close()
         print('Connection closed.')
+    return res
 
-
-def create_database():
-    print(f'Create database {db_name} ...')
+def create_db_schema():
+    print(f'Creating database {db_name} ...')
     sql = f'CREATE DATABASE {db_name} DEFAULT CHARACTER SET utf8 DEFAULT ENCRYPTION="N";'
     try:
-        drop_database()
+        drop_db_schema()
         conn = create_connection(host, port, user, password, db_name=None)
         with conn.cursor() as cursor:
             cursor.execute(sql)
@@ -60,8 +62,7 @@ def create_database():
     finally:
         conn.close()
 
-
-def drop_database():
+def drop_db_schema():
     print('Dropping database ...')
     sql = f'DROP DATABASE IF EXISTS {db_name}'
     try:
@@ -73,7 +74,6 @@ def drop_database():
         print(f'DROP Database {db_name} failed!\n{ex}')
     finally:
         conn.close()
-
 
 def create_table_users():
     print('\nCreate table "users"')
@@ -93,16 +93,35 @@ def create_table_users():
     finally:
         conn.close()
 
-def database_create():
-    create_database()
+def create_table_navarea_versions():
+    print(f'Creating table "version" of navarea ...')
+    sql = ("CREATE TABLE versions (id int PRIMARY KEY, "
+                                   "name varchar(16);")
+    try:
+        conn = create_connection()
+        with conn.cursor() as cursor:
+            cursor.execute(sql)
+        print(f'Create table "versions" of navarea success!')
+    except Exception as ex:
+        print(f'Create table "versions" of navarea error!\n{ex}')
+    finally:
+        conn.close()
+
+def add_table_navarea_versions_data():
+    pass
+
+def create_database():
+    if (test_connection() is False): return;
+    create_db_schema()
     create_table_users()
+    create_table_navarea_versions()
 
 
 
 
 def main():
     test_connection()
-    database_create()
+    create_database()
 
 
 
