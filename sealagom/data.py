@@ -24,7 +24,7 @@ def collect_data(navarea_num:int = '4')->str:
     soup = BeautifulSoup(response.text, 'lxml')
     navarea_text = soup.find('div', class_='message-content formatted' ).text.strip()
 
-    file_name = f'.\\downloads\\{navarea_num:02}_index_{navarea_num}.txt'
+    file_name = f'.\\downloads\\{navarea_num:02}_Navarea_{navarea_num:02}.txt'
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(navarea_text)
 
@@ -33,7 +33,7 @@ def collect_data(navarea_num:int = '4')->str:
 
 def collect_data_tmp(navarea_num:int)->str:
     print('load tmp local files !!!')
-    file_name = f'.\\downloads\\{navarea_num:02}_index_{navarea_num}.txt'
+    file_name = f'.\\downloads\\{navarea_num:02}_index_{navarea_num:02}.txt'
     with open(file_name, 'r', encoding='utf-8') as file:
         text = file.read()
     return text

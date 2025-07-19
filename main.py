@@ -8,6 +8,7 @@ def main():
     for i in range(1,20):
         if(i == 13):
             continue
+        #navareas = collect_data(i)
         navareas = collect_data_tmp(i)
 
         print('Парсим наварию {i}!')
@@ -16,7 +17,7 @@ def main():
         #Здесь надо разбить наварию на сообщения
 
 
-        navarea = navarea_parser()
+
 
 
 
