@@ -1,0 +1,3 @@
+﻿user = ''
+password = ''
+host = ''
