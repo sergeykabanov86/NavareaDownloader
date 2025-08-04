@@ -7,39 +7,41 @@ NAVAREA II COORDINATOR AT 0430 - 1630 UTC WITHIN 300 MILES OF
 portail.ping-info-nautique.fr
 
 
-NAVAREA II 200/2025
-UNWIELDY_TOW
-TUG MARIA MMSI 341073001 TOWING BARGE TO LAGOS, NIGERIA.
-LENGTH OF TOW 600 METRES
-LAST KNOWN POSITION :
-12-09N 017-39W AT 081600 UTC JUL 25
-Wide berth requested
-
-
-NAVAREA II 199/2025
-NAVAREA II in force at 061630 UTC JUL 25 :
-268/24, 170/25, 172/25, 182/25, 197/25, 198/25 and this MSG
+NAVAREA II 221/2025
+NAVAREA II in force at 031630 UTC AUG 25:
+268/24, 170/25, 203/25, 217/25, 218/25, 220/25 and this MSG
 Only those less than 42 days are daily broadcast on SAFETYNET and SAFETYCAST at 0430 and 1630 UTC.
 The complete texts of all NAVAREA II warnings are available on: portail.ping-info-nautique.fr
 Alternatively, it may be requested by e-mail at: [email protected]
 
 
-NAVAREA II 197/2025
-OPERATION_ON_CABLE
-M/V MAASVLIET  
-line joining 
-47-32.00N 011-40.00W,
-47-26.79N 012-49.65W, 
-47-28.29N 013-44.92W, 
-47-26.90N 014-40.42W, 
-47-17.40N 015-32.23W, 
-47-14.89N 016-18.14W, 
-47-18.35N 017-16.15W.
-Wide berth requested
+NAVAREA II 220/2025
+UNWIELDY_TOW
+Tug BAS TIGER MMSI 511101295 towing two barges to LAGOS, NIGERIA.
+Length of tow 800 metres.
+Last known position: 29-38.78N 014-14.87W at 011600 UTC AOU 25.
+Navigate with caution
 
 
-NAVAREA II 182/2025
-Last known positions of mobile oil rigs and drill ships at 171630 UTC jun 25.
+NAVAREA II 218/2025
+LIGHT_UNLIT
+Offshore jackets - Kambala/Livuite field
+120-04: 05-44.69S 012-00.53E
+132-02: 05-46.64S 012-03.37E
+120-03: 05-41.10S 012-03.26E
+119-01: 05-43.62S 011-59.80E
+Navigate with caution
+
+
+NAVAREA II 217/2025
+LIGHT_UNLIT
+Cap Spartel LIGHTHOUSE
+35-47.46N 005-55.43W
+Until further notic
+
+
+NAVAREA II 203/2025
+Last known positions of mobile oil rigs and drill ships at 121630 UTC jul 25.
 To report a mobile offshore drilling unit as per IMO resolution A.1023(26), paragraph 11.5.1,
 contact [email protected] - Subj: MODU report.
 ADRIATIC 1 04-22.72N 007-49.50E
@@ -51,30 +53,27 @@ MABOMO 04-10.97S 010-38.90E
 SHELF DRILLING MENTOR 04-06.20N 007-55.28E
 TUNGSTEN EXPLORER 05-22.31S 011-25.48E
 CLIVANA 04-16.32N 008-25.08E
-DELTA CONQUEST 8 04-09.42N 008-02.30E
+DELTA CONQUEST 8 04-14.42N 007-47.45E
 main pass IV 05-34.76N 005-06.86E
-atwood aurora 02-28.18S 009-12.72E
-shelf drilling tenacious 05-42.54S 011-55.79E
-SEACOR EAGLE 05-19.93S 012-04.62E
+atwood aurora 04-56.73S 011-41.58E
+shelf drilling tenacious 05-44.54S 011-48.79E
+SEACOR EAGLE 05-20.85S 012-06.14E
 NATT 04-41.69S 011-39.33E
-sianna 05-56.80S 012-14.08E
+sianna 05-58.11S 012-10.17E
 ensco 83 05-58.66S 012-10.62E
-santorini 04-49.07N 003-43.83W
+santorini 04-57.49N 004-43.22W
 noble venturer 04-32.94N 002-51.15W
 PARAGON M825 04-19.55N 008-27.82E
 PROSPECTOR 5 04-33.79S 011-34.60E
 oritsetimeyin 04-02.90N 007-50.16E
-
-
-NAVAREA II 172/2025
-UNDERWATER_OPERATIONS
-By S/V ATALANTE with AUV
-in area bounded by:
-46-50N 018-00W
-46-50N 016-00W
-45-40N 016-00W
-45-40N 018-00W
-Wide berth requested
+shelf drilling scepter 05-26.06N 005-08.76E
+shelf drilling achiever 03-56.13N 005-52.11E
+shelf drilling victory 03-28.71N 008-34.16E
+gerd 04-31.60S 011-33.00E
+norve 03-58.09N 008-30.94E
+pacific scirocco 28-53.30N 016-05.13W
+admarine 501 04-03.92N 007-42.83E
+admarine 504 05-19.87N 005-12.86E
 
 
 NAVAREA II 170/2025
