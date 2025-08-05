@@ -2,10 +2,6 @@
 __all__ = ['create']
 from typing import Any
 
-import pymysql
-from pymysql import Connection
-from pymysql.cursors import Cursor
-
 from settings import host, password, user, db, port
 
 
